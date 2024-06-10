@@ -10,7 +10,7 @@ dbConnect.dbConnection().then(()=>console.log("Database Connected"))
 .catch((error)=>console.log("Error in connecting Database", error));
 
 const corsOptions = {
-    origin: "https://express-api-khaki.vercel.app",
+    origin: "https://mern-1-nu.vercel.app",
     methods: "GET, POST, PUT, PATCH, DELETE",
     optionsSuccessStatus: 200, 
     credentials: true   // Allows cookies to be sent
